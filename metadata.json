@@ -1,0 +1,6 @@
+{
+  "name": "The Gentlemen's Cut",
+  "description": "Premium barbershop website with online guest booking, customer appointment management, and staff scheduling workflow.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
