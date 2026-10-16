@@ -151,7 +151,7 @@ export const AdminDashboard: React.FC = () => {
                     </td>
                     <td className="py-4 px-6 text-right space-x-2">
                       <button
-                        onClick={() => triggerWhatsAppSimulation(b.id, b.clientName, b.time)}
+                        onClick={() => triggerWhatsAppSimulation(b.id, b.clientName || b.customerName || 'Client', b.time)}
                         title="Simulate WhatsApp confirmation"
                         className="p-2 rounded-lg bg-emerald-500/10 hover:bg-emerald-500/20 text-emerald-400 border border-emerald-500/30 transition-colors inline-flex items-center"
                       >

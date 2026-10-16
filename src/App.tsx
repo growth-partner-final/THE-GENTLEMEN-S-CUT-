@@ -12,8 +12,8 @@ import { HoursLocationSection } from './components/sections/HoursLocationSection
 import { MembershipSection } from './components/sections/MembershipSection';
 import { ReviewsSection } from './components/sections/ReviewsSection';
 import { ContactSection } from './components/sections/ContactSection';
-import { BookingModal } from './components/modals/BookingModal';
-import { AuthModal } from './components/modals/AuthModal';
+import { BookingModal } from './components/booking/BookingModal';
+import { OTPLoginModal as AuthModal } from './components/auth/OTPLoginModal';
 import { CustomerDashboard } from './components/dashboard/CustomerDashboard';
 import { AdminDashboard } from './components/dashboard/AdminDashboard';
 
